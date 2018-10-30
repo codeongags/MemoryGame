@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Memory game</string>
+    <string name="intro"></string>
+    <string name="que"> .? </string>
 </resources>

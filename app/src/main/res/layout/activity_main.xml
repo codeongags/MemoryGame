@@ -4,15 +4,151 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="16dp">
 
     <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Timer"
+        android:textSize="40dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/R1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=".?"
+            android:textSize="50sp"
+            android:background="@drawable/shape"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/O1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text=".?"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:background="@drawable/shape"/>
+
+        <Button
+            android:id="@+id/Y1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=".?"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:background="@drawable/shape"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+
+        <Button
+            android:id="@+id/B2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=".?"
+            android:textColor="@color/white"
+            android:textSize="50sp" android:background="@drawable/shape"/>
+
+        <Button
+            android:id="@+id/R2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text=".?"
+            android:textSize="50sp"
+            android:background="@drawable/shape"/>
+
+        <Button
+            android:id="@+id/G1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=".?"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:background="@drawable/shape" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/O2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=".?"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:background="@drawable/shape"/>
+
+        <Button
+            android:id="@+id/B1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text=".?"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:background="@drawable/shape"/>
+
+        <Button
+            android:id="@+id/Y2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=".?"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:background="@drawable/shape"/>
+
+    </LinearLayout>
+</LinearLayout>
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gagan"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        android:text="Reset"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:background="@color/blue1"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:padding="5dp"
+        />
 </LinearLayout>
