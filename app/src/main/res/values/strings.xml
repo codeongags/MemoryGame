@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">Memory game</string>
-    <string name="intro"></string>
-    <string name="que"> .? </string>
+    <string name="intro">Train your mind with this simple game designed with psychologists to give your brain a little dose of exercise. Tap a bubble to unravel its color, tap two bubble with same color to pop them out! clear all nine bubbles to end the game. As you train more your time reduces  and you become a genius in few months!  </string>
 </resources>
